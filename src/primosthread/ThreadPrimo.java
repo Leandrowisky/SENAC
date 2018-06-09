@@ -1,5 +1,6 @@
 package primosthread;
 
+//Classe de definição do objeto ThreadPrimo, responsável por realizar o calculo de números primos a partir do metodo "run"
 public class ThreadPrimo extends Thread {
    private String nome;
    private int numIni;
@@ -12,6 +13,7 @@ public class ThreadPrimo extends Thread {
         //start();
     }
    
+    //metodo sobescrito da classe Thread para realizar o calculo dos números primos.
     @Override
     public void run(){
         int exato = 0;
